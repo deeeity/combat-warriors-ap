@@ -458,7 +458,7 @@ function playerAdded(v)
 
 				if (Player.Character and Player.Character:FindFirstChild("Head") and v.Character:FindFirstChild("Head")) then
 					local mag = (v.Character.Head.Position - Player.Character.Head.Position).Magnitude
-					if mag < 25  then
+					if mag < 20  then
 
 						for _, animName in pairs(AnimNames) do
 							if info.Name:match(animName) then
