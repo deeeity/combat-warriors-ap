@@ -288,7 +288,7 @@ function UI:new()
 	Keybind.Position = UDim2.new(1, 0, 0, 0)
 	Keybind.Size = UDim2.new(0, 40, 0, 20)
 	Keybind.Font = Enum.Font.Ubuntu
-	Keybind.Text = "ALT"
+	Keybind.Text = Key.Name
 	Keybind.TextColor3 = Color3.fromRGB(220, 220, 220)
 	Keybind.TextSize = 10.000
 	Keybind.InputBegan:Connect(function(k)
